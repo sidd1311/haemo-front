@@ -1,0 +1,158 @@
+.admin-donors {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-donor-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-donor-button:hover {
+  background-color: #2980b9;
+}
+
+.donor-form {
+  margin-bottom: 20px;
+}
+
+.donor-form h2 {
+  margin-bottom: 10px;
+}
+
+.donor-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.donor-form input,
+.donor-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #27ae60;
+}
+
+.donors-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
+
+.donors-table th,
+.donors-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.donors-table th {
+  background-color: #f4f4f4;
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  border: none;
+  margin: 2px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: green;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: rgb(70, 214, 70);
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  margin-left: 1rem;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+
+.modal-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.page-number {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.page-number.active {
+  background-color: #3498db;
+  color: white;
+}
+
+.page-number:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+/**
+ { id: 1, name: 'John Doe', email: 'john@example.com', address: '123 Main St', bloodtype: 'O+', diseases: 'None', weight: '70kg', date: '2024-08-20', phone: '123-456-7890' },
+  { id: 2, name: 'Jane Smith', email: 'jane@example.com', address: '456 Elm St', bloodtype: 'A-', diseases: 'Diabetes', weight: '65kg', date: '2024-08-18', phone: '987-654-3210' },
+  { id: 3, name: 'John Doe', email: 'john@example.com', address: '123 Main St', bloodtype: 'O+', diseases: 'None', weight: '70kg', date: '2024-08-20', phone: '123-456-7890' },
+  { id: 4, name: 'Jane Smith', email: 'jane@example.com', address: '456 Elm St', bloodtype: 'A-', diseases: 'Diabetes', weight: '65kg', date: '2024-08-18', phone: '987-654-3210' },
+  { id: 5, name: 'John Doe', email: 'john@example.com', address: '123 Main St', bloodtype: 'O+', diseases: 'None', weight: '70kg', date: '2024-08-20', phone: '123-456-7890' },
+  { id: 6, name: 'Jane Smith', email: 'jane@example.com', address: '456 Elm St', bloodtype: 'A-', diseases: 'Diabetes', weight: '65kg', date: '2024-08-18', phone: '987-654-3210' },
+  { id: 7, name: 'John Doe', email: 'john@example.com', address: '123 Main St', bloodtype: 'O+', diseases: 'None', weight: '70kg', date: '2024-08-20', phone: '123-456-7890' },
+  { id: 8, name: 'Jane Smith', email: 'jane@example.com', address: '456 Elm St', bloodtype: 'A-', diseases: 'Diabetes', weight: '65kg', date: '2024-08-18', phone: '987-654-3210' },
+
+
+  ***/

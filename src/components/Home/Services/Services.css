@@ -1,0 +1,49 @@
+body, .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200,400,500,600,700,800;
+    font-style: normal;
+}
+
+.services-heading {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.service-item {
+    flex: 1 1 20%;
+    text-align: center;
+    margin: 20px;
+}
+
+.service-image {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.service-title {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+}
+
+.service-para {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #555;
+    line-height: 1.5;
+}

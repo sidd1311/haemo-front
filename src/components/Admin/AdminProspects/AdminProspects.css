@@ -1,0 +1,113 @@
+.admin-prospects {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-prospect-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-prospect-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .prospect-form {
+    margin-bottom: 20px;
+  }
+  
+  .prospect-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .prospect-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .prospect-form input,
+  .prospect-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #27ae60;
+  }
+  
+  .prospects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+  }
+  
+  .prospects-table th,
+  .prospects-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .prospects-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .approve-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .approve-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .page-number {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    cursor: pointer;
+  }
+  
+  .page-number.active {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .page-number:hover {
+    background-color: #2980b9;
+    color: white;
+  }
+  

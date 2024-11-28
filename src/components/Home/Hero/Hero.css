@@ -1,0 +1,39 @@
+.hero {
+    position: relative;
+    height: 70vh; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    padding-left: 3rem; 
+}
+
+.hero-content {
+    color: white;
+    max-width: 600px; 
+}
+
+.hero-title {
+    font-size: 4rem; 
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.hero-line {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-button {
+    background-color: #E41F2C;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #bf1b26;
+}
